@@ -32,44 +32,44 @@ You can interact with this script using different commands. Below are the availa
 ### Commands
 * add: Add a new task to the to-do list.
 ```bash
-python todo.py add --task "Task description"
+python task.py add --task "Task description"
 ```
 * update: Update the description of an existing task by specifying the task number and the new description.
 ```bash
-python todo.py update --number TASK_NUMBER --task "New description"
+python task.py update --number TASK_NUMBER --task "New description"
 ```
 * delete: Delete a task by specifying the task number.
 ```bash
-python todo.py delete --number TASK_NUMBER
+python task.py delete --number TASK_NUMBER
 ```
 * delete_by_id: Delete a task by its unique ID.
 ```bash
-python todo.py delete_by_id --id TASK_ID
+python task.py delete_by_id --id TASK_ID
 ```
 * mark: Mark a task as "todo", "in_progress", or "done" by specifying the task number and the desired status.
 ```bash
-python todo.py mark --number TASK_NUMBER --status STATUS
+python task.py mark --number TASK_NUMBER --status STATUS
 ```
 * list_done: List all tasks with the status "done".
 ```bash
-python todo.py list_done
+python task.py list_done
 ```
 
 
 * list_pending: List all tasks that are not marked as "done".
 
 ```bash
-python todo.py list_pending
+python task.py list_pending
 ```
 * list_in_progress: List all tasks with the status "in_progress".
 
 ```bash
-python todo.py list_in_progress
+python task.py list_in_progress
 ```
 * help: Display help message and list all available commands.
 
 ```bash
-python todo.py help
+python task.py help
 ```
 
 
@@ -86,12 +86,12 @@ python todo.py help
 
 ## Example
 ```bash
-python todo.py add --task "Complete homework"
-python todo.py list
-python todo.py mark --number 1 --status "in_progress"
-python todo.py list_in_progress
-python todo.py update --number 1 --task "Complete homework and submit"
-python todo.py delete --number 1
+python task.py add --task "Complete homework"
+python task.py list
+python task.py mark --number 1 --status "in_progress"
+python task.py list_in_progress
+python task.py update --number 1 --task "Complete homework and submit"
+python task.py delete --number 1
 ```
 
 
